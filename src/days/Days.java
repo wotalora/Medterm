@@ -22,13 +22,16 @@ public class Days {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-         
+     //Weekday weekdays= new weekday
+         Weekdays week = new Weekdays();
     Scanner in =new Scanner(System.in);
     System.out.println("Enter the day number (one,two,three,four,five) in string");
     String code = in.next();
     Weekdays t= new Weekdays();
     t.nameOfDay(code); 
-    }// TODO code application logic here
+
+         }// TODO code application logic here
     
+ 
     
 }
